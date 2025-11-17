@@ -14,10 +14,10 @@ Remote Sensing Segmentation
     <img alt="Static Badge" src="https://img.shields.io/badge/mmengine-v0.9.1-blue">
     <img alt="Static Badge" src="https://img.shields.io/badge/torchvision-v0.16.2-B31B1B?logo=pytorch">
     </br>
-    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/woldier/pro-sfda">
-    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-closed/woldier/pro-sfda?color=ab7df8">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/woldier/pro-sfda?style=flat&color=red">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/woldier/pro-sfda?style=flat&color=af2626">
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/woldier/bridge">
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-closed/woldier/bridge?color=ab7df8">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/woldier/bridge?style=flat&color=red">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/woldier/bridge?style=flat&color=af2626">
 </p>
 </div>
 <br/>
