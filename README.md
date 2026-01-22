@@ -30,8 +30,8 @@ Remote Sensing Segmentation
 ### 🔍️🔍️ NEWS
 
 
-- [2024/9/21] ✨✨  The `README.md` has been updated.
-- [2024/9/19] ✨✨ The [arxiv] paper will coming soon。
+- [2025/9/21] ✨✨  The `README.md` has been updated.
+- [2025/9/19] ✨✨ The [arxiv] paper will coming soon。
 
 
 ### 📄📄 TODO
