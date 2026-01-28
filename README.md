@@ -29,7 +29,7 @@ Remote Sensing Segmentation
 
 ### 🔍️🔍️ NEWS
 
-
+- [2026/2/1] 🥰🥰  The `Training Code` has been updated.
 - [2025/9/21] ✨✨  The `README.md` has been updated.
 - [2025/9/19] ✨✨ The [arxiv] paper will coming soon。
 
@@ -38,7 +38,6 @@ Remote Sensing Segmentation
 
 
 - ❎ submit to arxiv
-- ❎ upload training code
 - ❎ upload **Bridge** model weights
 
 
