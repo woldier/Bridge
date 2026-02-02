@@ -84,7 +84,7 @@ ln -s submodule-mmseg/mmseg mmseg
 </details>
 
 
-## 1. Creating Virtual Environment
+## 🛠️ 1. Creating Virtual Environment
 
 ---
 
@@ -119,7 +119,7 @@ Torch and torchvision versions relationship.
 [![CSDN](https://img.shields.io/badge/CSDN-vision_refer-FC5531?logo=csdn)](https://blog.csdn.net/shiwanghualuo/article/details/122860521)
 
 
-## 2.Preparation of data sets
+## 📂 2.Preparation of data sets
 
 ---
 We selected Postsdam, Vaihingen and LoveDA as benchmark datasets and created train, val, test lists for researchers.
@@ -184,10 +184,10 @@ Bridge/
 │   │   ├── Test.zip
 │   │   ├── Train.zip
 │   │   └── Val.zip
-├── ├── Potsdam_RGB_DA/
+├── ├── Potsdam_RGB/
 │   │   ├── 2_Ortho_RGB.zip
 │   │   └── 5_Labels_all_noBoundary.zip
-├── ├── Vaihingen_IRRG_DA/
+├── ├── Vaihingen_IRRG/
 │   │   ├── ISPRS_semantic_labeling_Vaihingen.zip
 │   │   └── ISPRS_semantic_labeling_Vaihingen_ground_truth_eroded_COMPLETE.zip
 ```
@@ -202,16 +202,73 @@ after that we can convert dataset:
 
 - Potsdam
 ```shell
-python tools/convert_datasets/potsdam.py data/Potsdam_IRRG/ --clip_size 512 --stride_size 512
-python tools/convert_datasets/potsdam.py data/Potsdam_RGB/ --clip_size 512 --stride_size 512
+python tools/convert_datasets/potsdam.py data/Potsdam_RGB/ --clip_size 512 --stride_size 512 -o data/potsdam_RGB
 ```
 - Vaihingen
 ```shell
-python tools/convert_datasets/vaihingen.py data/Vaihingen_IRRG/ --clip_size 512 --stride_size 256
+python tools/convert_datasets/vaihingen.py data/Vaihingen_IRRG/ --clip_size 512 --stride_size 256 -o data/vaihingen
+```
+
+
+- LoveDA
+```shell
+python tools/convert_datasets/loveda.py data/LoveDA/ --tmp_dir data -o data/loveda
+```
+
+</details>
+
+
+## 🧰 3. Preparation of pretraining weights
+
+---
+
+### 3.1 Download
+
+Download pre-trained weights from [facebookresearch](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth). 
+
+Place them in the project directory without changing the file name.
+
+### 3.2 Convert
+
+<details>
+<summary>model convert</summary>
+
+```bash
+python tools/convert_models/convert_dinov2.py pretrained/dinov2_vitl14_pretrain.pth pretrained/vit-large-p16_dinov2_converted.pth
+```
+
+</details>
+
+> Alternatively, you can download the converted weights via the **link[Coming soon]**.
+
+
+## 🔥 4. Training
+
+---
+
+<details>
+<summary>training scripts</summary>
+
+```bash
+# pr2vi
+python tools/train.py configs/bridge/bridge_segmentor_vit-l-p16_dinov2_pr2vi_20k.py
+
+# vi2pr
+python tools/train.py configs/bridge/bridge_segmentor_vit-l-p16_dinov2_vi2pr_20k.py
+
+# r2u
+python tools/train.py configs/bridge/bridgev2_segmentor_vit-l-p16_dinov2_r2u_20k.py
 ```
 </details>
 
 
+# 🫂 Acknowledgments
 
 ---
-## The code in coming soon 🤗🤗
+
+Many thanks to their excellent works
+* [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
+* [DACS](https://github.com/vikolss/DACS)
+* [DAFormer](https://github.com/lhoyer/DAFormer)
+* [SiamSeg](https://github.com/woldier/SiamSeg/)
+* [Earth-Adapter](https://github.com/VisionXLab/Earth-Adapter)
