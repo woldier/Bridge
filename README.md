@@ -239,7 +239,7 @@ python tools/convert_models/convert_dinov2.py pretrained/dinov2_vitl14_pretrain.
 
 </details>
 
-> Alternatively, you can download the converted weights via the **link[Coming soon]**.
+> Alternatively, you can download the converted weights via the **[link](https://huggingface.co/woldier/Bridge/resolve/main/vit-large-p16_dinov2_converted.pth?download=true)**.
 
 
 ## 🔥 4. Training
