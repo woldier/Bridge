@@ -29,9 +29,9 @@ Remote Sensing Segmentation
 
 ### 🔍️🔍️ NEWS
 
-- [2026/1/31]  🥰🥰  The `Training Code` has been updated.
-- [2025/9/21] ✨✨  The `README.md` has been updated.
-- [2025/9/19] ✨✨ The [arxiv] paper will coming soon。
+- [2026/02/02]  🥰🥰  The `Training Code` has been updated.
+- [2025/09/21] ✨✨  The `README.md` has been updated.
+- [2025/09/19] ✨✨ The [arxiv] paper will coming soon。
 
 
 ### 📄📄 TODO
