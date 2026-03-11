@@ -28,9 +28,9 @@ Remote Sensing Segmentation
 
 
 ### 🔍️🔍️ NEWS
-- [2026/03/11] 🌟🌟 Our paper is accepted by IEEE TGRS!
-- [2026/02/02]  🥰🥰  The `Training Code` has been updated.
-- [2025/09/21] ✨✨  The `README.md` has been updated.
+- [2026/03/11] 🎉🎉 Our paper is accepted by IEEE TGRS!
+- [2026/02/02] 🥰🥰  The `Training Code` has been updated.
+- [2025/09/21] 🌟🌟  The `README.md` has been updated.
 - [2025/09/19] ✨✨ The [arxiv] paper will coming soon。
 
 
