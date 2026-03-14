@@ -28,7 +28,7 @@ Remote Sensing Segmentation
 
 
 ### 🔍️🔍️ NEWS
-- [2026/03/11] 🎉🎉 Our paper is accepted by IEEE TGRS!
+- [2026/03/11] 🎉🎉 Our paper is accepted by IEEE TGRS [paper](https://doi.org/10.1109/TGRS.2026.3673710)!
 - [2026/02/02] 🥰🥰  The `Training Code` has been updated.
 - [2025/09/21] 🌟🌟  The `README.md` has been updated.
 - [2025/09/19] ✨✨ The [arxiv] paper will coming soon。
@@ -272,3 +272,19 @@ Many thanks to their excellent works
 * [DAFormer](https://github.com/lhoyer/DAFormer)
 * [SiamSeg](https://github.com/woldier/SiamSeg/)
 * [Earth-Adapter](https://github.com/VisionXLab/Earth-Adapter)
+
+# 📄 Reference
+If you find our work helpful, please cite our paper:
+```bibtex
+@ARTICLE{bridge,
+  author={Wang, Bin and Chen, Zeyu and Li, Zhi and Lei, Ling and Liu, Yiguang},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Bridge: Leveraging Vision Foundation Models for Efficient Cross-Domain Remote Sensing Segmentation}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Bridges;Adaptation models;Semantic segmentation;Foundation models;Remote sensing;Tuning;Semantics;Natural language processing;Feature extraction;Visualization;Vision Foundation Models;Domain Adaptation Semantic Segmentation;Parameter-Efficient Fine-Tuning;Remote Sensing},
+  doi={10.1109/TGRS.2026.3673710}}
+
+```
