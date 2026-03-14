@@ -271,7 +271,7 @@ Many thanks to their excellent works
 * [DACS](https://github.com/vikolss/DACS)
 * [DAFormer](https://github.com/lhoyer/DAFormer)
 * [SiamSeg](https://github.com/woldier/SiamSeg/)
-* [Earth-Adapter](https://github.com/VisionXLab/Earth-Adapter)
+
 
 # 📄 Reference
 If you find our work helpful, please cite our paper:
