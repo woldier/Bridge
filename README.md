@@ -8,7 +8,7 @@ Remote Sensing Segmentation
 <div style="display: flex; align-items: center; justify-content: center;">
 <p align="center">
   <br align="center">
-    <a href='#'><img src='http://img.shields.io/badge/Paper-arxiv.xxx.xxx-B31B1B.svg?logo=arXiv&logoColor=B31B1B'></a>
+    <a href='https://ieeexplore.ieee.org/document/11434537'><img src='http://img.shields.io/badge/TGRS-2026.3673710-006699.svg?logo=IEEE&logoColor=006699'></a>
     <img alt="Static Badge" src="https://img.shields.io/badge/python-v3.8-green?logo=python">
     <img alt="Static Badge" src="https://img.shields.io/badge/torch-v2.1.2-B31B1B?logo=pytorch">
     <img alt="Static Badge" src="https://img.shields.io/badge/mmengine-v0.9.1-blue">
